@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.app {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    color: white;
+}
+.search-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+    /*position: absolute;
+    background-color: rgba(255, 255, 255, 0.5); */
+}
+.search-input > input {
+    background-color: rgba(255, 255, 255, 0.5); 
+    border: none;
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+.search-input > input:focus {
+    outline: none;
+}
+.search-input button {
+    border: none;
+    margin-left: 10px;
+    padding: 7px 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5); 
+    cursor: pointer;
+    color: white;
+}
+.weatherInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.temp-span {
+    margin-left: 5px;
+}
+.temp {
+    font-size: 60px;
+}
+.name {
+    margin-bottom: 0;
+}
+.country {
+    margin: 0;
+}
